@@ -18,7 +18,7 @@ module.exports = {
                 link: '/'
             },
             {
-                text: '历史存档',
+                text: '笔记',
                 link: '/documents/'
             },
             {
