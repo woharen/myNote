@@ -1,11 +1,9 @@
-# Hello Vinho
-
-首页:full_moon:
-
->图片一路径 public/image/
-
-![LOGO](./public/image/logo.jpg)
-
->图片二路径 .vuepress/public/image
-
-<img :src="$withBase('/image/logo.jpg')" alt="foo">
+---
+home: true
+# heroImage: /hero.png
+heroText: Vinho的日常笔记
+tagline: 记录开发的点点滴滴
+actionText: 看看新的笔记 →
+actionLink: /documents/
+footer: MIT Licensed | Copyright © 2020-woharen
+---
