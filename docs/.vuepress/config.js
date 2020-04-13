@@ -2,12 +2,14 @@ module.exports = {
     title: 'VinhoJiang',
     description: 'This is VinhoJiang!!!',
     //  网站路径
-    base: '/myNote/',
+    // base: '/myNote/',
     markdown: {
         // 代码块显示行号
         lineNumbers: true
     },
+    plugins: ['@vuepress/medium-zoom'],
     themeConfig: {
+        lastUpdated: '最后更新于',
         locales: {
             lang: 'zh-CN',
             title: 'VinhoJiang',
@@ -22,12 +24,16 @@ module.exports = {
                 link: '/documents/'
             },
             {
-                text: 'github',
-                link: 'https://www.github.com/woharen'
+                text: '收藏',
+                link: '/bookmarks/'
             },
             {
                 text: '关于',
                 link: '/about'
+            },
+            {
+                text: 'github',
+                link: 'https://www.github.com/woharen'
             }
         ],
         sidebar: {
@@ -36,7 +42,7 @@ module.exports = {
                 {
                     title: 'JAVA', // 显示名 必要的
                     path: '/documents/java/', // 路径 可选的, 应该是一个绝对路径
-                    collapsable: false, // 折叠 可选的, 默认值是 true,
+                    collapsable: true, // 折叠 可选的, 默认值是 true,
                     sidebarDepth: 1, // 侧壁深度 可选的, 默认值是 1
                     children: [
                         ['/documents/java/', 'JAVA入门'],
@@ -47,7 +53,7 @@ module.exports = {
                 {
                     title: 'VUE', // 显示名 必要的
                     path: '/documents/vue/', // 路径 可选的, 应该是一个绝对路径
-                    collapsable: false, // 折叠 可选的, 默认值是 true,
+                    collapsable: true, // 折叠 可选的, 默认值是 true,
                     sidebarDepth: 1, // 侧壁深度 可选的, 默认值是 1
                     children: [
                         ['/documents/vue/', '入门'],
@@ -56,6 +62,10 @@ module.exports = {
                     ]
                 },
             ],
+            '/bookmarks/': [
+                ['tools', '工具类'],
+                ['website', '网站类']
+            ]
         }
     }
 }
