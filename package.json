@@ -1,5 +1,5 @@
 {
-  "name": "woharen.github.io",
+  "name": "myNote",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/woharen/woharen.github.io.git"
+    "url": "git+https://github.com/woharen/myNote.git"
   },
   "author": "Vinho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/woharen/woharen.github.io/issues"
+    "url": "https://github.com/woharen/myNote.git/issues"
   },
-  "homepage": "https://github.com/woharen/woharen.github.io#readme"
+  "homepage": "https://github.com/woharen/myNote.git#readme"
 }
