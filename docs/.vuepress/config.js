@@ -2,7 +2,7 @@ module.exports = {
     title: 'VinhoJiang',
     description: 'This is VinhoJiang!!!',
     //  网站路径
-    // base: '/myNote/',
+    base: '/myNote/',
     markdown: {
         // 代码块显示行号
         lineNumbers: true
