@@ -25,7 +25,7 @@ module.exports = {
             },
             {
                 text: '收藏',
-                link: '/bookmarks/'
+                link: '/bookmarks'
             },
             {
                 text: '关于',
@@ -62,10 +62,10 @@ module.exports = {
                     ]
                 },
             ],
-            '/bookmarks/': [
-                ['tools', '工具类'],
-                ['website', '网站类']
-            ]
+            // '/bookmarks/': [
+            //     ['tools', '工具类'],
+            //     ['website', '网站类']
+            // ]
         }
     }
 }
