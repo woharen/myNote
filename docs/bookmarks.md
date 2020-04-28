@@ -30,5 +30,7 @@ sidebar: auto
 ### WINDOWNS
 - [KeePass](https://keepass.info/) KeePass是免费的开源密码管理器
 - [Snipaste](https://www.snipaste.com/) 一个很不错的截图软件
+- [eDiary](http://www.haoxg.net/) 一个用来写日志的工具
 
 ### ANDROID
+- [一个木函](https://www.coolapk.com/apk/com.One.WoodenLetter) 一个小工具很多的app
